@@ -22,7 +22,7 @@
 @end
 
 @implementation ViewController
-#warning 请使用真机测试，并且确保存在有蓝牙功能的蓝牙打印机
+#warning (请使用真机测试，并且确保存在有蓝牙功能的蓝牙打印机)
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
