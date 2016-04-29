@@ -27,7 +27,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //    返回
-    
     self.infoStr = @"{\"machineCode\":\"5E799AF4-486A-4EB5-BCFB-4BDE928E4E68\",\"shopname\":\"默认服务中心\",\"date\":\"2016-01-26,10\",\"id\":\"YT4332553551\",\"consignee\":\"上看看\",\"telphone\":\"1800asda221\",\"address\":\"四川四川省成都市金牛区解放路二段\",\"total\":\"552.0\",\"servicephone1\":\"15923564512\",\"servicephone2\":\"028-12345678\",\"zhekou\":\"04544.0\",\"shifu\":\"1151.0\",\"goodsArr\":[{\"spname\":\"现代VK-10（单10）音响-网上易田，省心省钱[功率:200W及以下]\",\"price\":\"550.0\",\"num\":\"11\",\"Amount\":\"1911\"}]}";
     NSData *data = [self.infoStr dataUsingEncoding:NSUTF8StringEncoding];
     
@@ -74,7 +73,7 @@
     backView.backgroundColor = [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0];
     UILabel *labelaa = [[UILabel alloc]initWithFrame:CGRectMake(10, 45, 200, 30)];
     labelaa.backgroundColor = [UIColor clearColor];
-    labelaa.text = @"蓝牙设备";
+    labelaa.text = @"蓝牙设备---打印收银小票";
     labelaa.font = [UIFont systemFontOfSize:16];
     labelaa.textColor = [UIColor redColor];
     [backView addSubview:labelaa];

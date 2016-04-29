@@ -19,6 +19,7 @@
 		78D7EC541C8E5D3A009D115A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7EC501C8E5D3A009D115A /* SVIndefiniteAnimatedView.m */; };
 		78D7EC551C8E5D3A009D115A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78D7EC511C8E5D3A009D115A /* SVProgressHUD.bundle */; };
 		78D7EC561C8E5D3A009D115A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D7EC531C8E5D3A009D115A /* SVProgressHUD.m */; };
+		78F1ED481CCDF80200F8AA4A /* ysc_nav_nemu_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 78F1ED471CCDF80200F8AA4A /* ysc_nav_nemu_black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		78D7EC511C8E5D3A009D115A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		78D7EC521C8E5D3A009D115A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		78D7EC531C8E5D3A009D115A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		78F1ED471CCDF80200F8AA4A /* ysc_nav_nemu_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ysc_nav_nemu_black.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				78D7EC191C8E5BF1009D115A /* ViewController.m */,
 				78D7EC4B1C8E5C40009D115A /* BlueToothManager.h */,
 				78D7EC4C1C8E5C40009D115A /* BlueToothManager.m */,
+				78F1ED471CCDF80200F8AA4A /* ysc_nav_nemu_black.png */,
 				78D7EC1B1C8E5BF1009D115A /* Main.storyboard */,
 				78D7EC1E1C8E5BF1009D115A /* Assets.xcassets */,
 				78D7EC201C8E5BF1009D115A /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78D7EC221C8E5BF1009D115A /* LaunchScreen.storyboard in Resources */,
+				78F1ED481CCDF80200F8AA4A /* ysc_nav_nemu_black.png in Resources */,
 				78D7EC1F1C8E5BF1009D115A /* Assets.xcassets in Resources */,
 				78D7EC1D1C8E5BF1009D115A /* Main.storyboard in Resources */,
 				78D7EC551C8E5D3A009D115A /* SVProgressHUD.bundle in Resources */,
@@ -447,7 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yitian.gogo.BluetoothPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c5d60c28-658a-427f-b7b6-222b3728b02c";
+				PROVISIONING_PROFILE = "e388a4d4-5627-4391-ad1b-a6edcd64b98c";
 			};
 			name = Debug;
 		};
@@ -460,7 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yitian.gogo.BluetoothPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c5d60c28-658a-427f-b7b6-222b3728b02c";
+				PROVISIONING_PROFILE = "e388a4d4-5627-4391-ad1b-a6edcd64b98c";
 			};
 			name = Release;
 		};
